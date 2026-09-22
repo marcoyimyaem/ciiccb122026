@@ -1,3 +1,4 @@
+package chapter1;
 
 /**
  * Toy Object
