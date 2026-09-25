@@ -13,6 +13,12 @@ public class PrimitivesLesson {
         long i = 56l;
         char c = 7000;
         boolean bol = true;
+        int binaryNum = 0B101;
+        int hexaNum = 0xa;
+        int octalNum = 011;
+        // String name="marco";
+        // name.length()
+        System.out.println(2+011);
         
     }
 }

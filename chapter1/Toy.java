@@ -24,6 +24,7 @@ public class Toy{
         toy1.quantity = 12;
         toy1.setPrice((toy1.price*0.5));
         System.out.println(toy1.price);
+        
     }
 }
 class Fruit{
