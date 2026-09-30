@@ -1,4 +1,18 @@
 package chapter2;
+import java.util.*;
+
+/** 
+ * db>table>notif=unread
+ *for(t=0;t<60;t++){
+    (notif>0)?icon++,t=0: ;
+    t=t+timer;
+}
+ } 
+ * 
+ * */ 
+
+
+
 
 public class LoopsLesson {
     static boolean op(){
@@ -14,8 +28,23 @@ public class LoopsLesson {
             System.out.println("do while : a = "+a--);
         while (a<10);
         System.out.println("end of program");
-        
-        
+         int b = 0;
+        boolean bol = true;
+        for( ;b<10;b++)
+            System.out.println("b = "+b++);
+
+        System.out.println("enter a valid number");
+        Scanner q = new Scanner(System.in);
+        int limit = q.nextInt();
+        for(int x=1;x<limit;x++){
+            for(int y=1;y<=x;y++){
+                System.out.print(x);
+            }
+            System.out.println();
+        }
+        String[] colors ={"black","red","pink","yellow","white","blue"}; 
+        for(String color: colors)
+            System.out.println("Color: "+color);
         }
     
 }
