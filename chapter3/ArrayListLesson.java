@@ -1,5 +1,6 @@
 package chapter3;
 import chapter1.Toy;
+import java.math.BigInteger;
 import java.util.*;
 
 public class ArrayListLesson {
@@ -33,7 +34,7 @@ public class ArrayListLesson {
         Collections.reverse(nums2);
         System.out.println(nums2);
         Collections.shuffle(nums2);
-        
+    
         System.out.println(nums2);
         //q[5]
         //a[5]
