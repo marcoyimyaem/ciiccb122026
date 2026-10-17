@@ -1,9 +1,9 @@
 package chapter4;
 import java.util.*;
-
+import java.util.function.*;
 public class LambdaLesson {
 
-    static void print(List<Animal> animals,CheckTrait checker){
+    static void print(List<Animal> animals,Predicate<Animal> checker){
         for(Animal animal: animals){
             if( checker.test(animal)){
                 System.out.print(animal+", ");
@@ -62,9 +62,9 @@ class Animal{
 }
 
 
-interface CheckTrait{
-    boolean test(Animal a);
-}
+// interface CheckTrait{
+//     boolean test(Animal a);
+// }
 // class CheckIfHopper implements CheckTrait{
 //     public boolean test(Animal a){
 //         return a.canHop();
