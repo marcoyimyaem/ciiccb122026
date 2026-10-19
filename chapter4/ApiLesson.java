@@ -4,7 +4,7 @@ import java.util.*;
 
 public class ApiLesson {
     void call(){
-        var my = new ThatTimeIWasReincarnatedAsAPoorFilipinoProgrammerThatTheLowestSkillIsMyAbilities();
+        var my = new ThatTimeIWasReincarnatedAsAPoorFilipinoProgrammerThatTheLowestSkillIsMyAbilitiesThatNeverGrowOldWithMyMultiplePersonalitiesIturnedIntoAToastedShopao();
     }
     public static void main(String[] args) {
         Set<Integer> set = new HashSet<>();
