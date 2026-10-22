@@ -116,8 +116,23 @@ class Dog extends Mammal{
     public void setAge(int age){
         
     }
+}
+abstract interface CanBurrow{
+    public static final int MINIMUM_DEPTH =2;
+    public abstract int getMaximumDepth();
+}
 
-    
-    
-
+interface CanBurrow2 extends CanFly{
+    int MINIMUM_DEPTH =2;
+    int getMaximumDepth();
+}
+interface CanFly{
+    int MINIMUM_HEIGHT = 40;
+    int getMaxHeight();
+    default int maxSpeed(){
+        return 0;
+    }
+    static void minSpeed(){
+        System.out.println("min speed");
+    }
 }
