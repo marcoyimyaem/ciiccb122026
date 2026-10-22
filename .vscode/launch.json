@@ -1,0 +1,274 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch with Arguments Prompt",
+            "request": "launch",
+            "mainClass": "",
+            "args": "${command:SpecifyProgramArgs}"
+        },
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Task1",
+            "request": "launch",
+            "mainClass": "Tasks.Task1",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "Constructor1Lesson",
+            "request": "launch",
+            "mainClass": "chapter1.Constructor1Lesson",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "Fruit4",
+            "request": "launch",
+            "mainClass": "chapter1.Fruit4",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "InstanceIniLesson",
+            "request": "launch",
+            "mainClass": "chapter1.InstanceIniLesson",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "chapter1.Main",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "Name",
+            "request": "launch",
+            "mainClass": "chapter1.Name",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "PrimitivesLesson",
+            "request": "launch",
+            "mainClass": "chapter1.PrimitivesLesson",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "ReferenceLesson",
+            "request": "launch",
+            "mainClass": "chapter1.ReferenceLesson",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "Swan",
+            "request": "launch",
+            "mainClass": "chapter1.Swan",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "Toy",
+            "request": "launch",
+            "mainClass": "chapter1.Toy",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "EqualityOperator",
+            "request": "launch",
+            "mainClass": "chapter2.EqualityOperator",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "IfSwitchStatementLesson",
+            "request": "launch",
+            "mainClass": "chapter2.IfSwitchStatementLesson",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "LoopsLesson",
+            "request": "launch",
+            "mainClass": "chapter2.LoopsLesson",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "OperatorsLesson",
+            "request": "launch",
+            "mainClass": "chapter2.OperatorsLesson",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "ArrayLesson",
+            "request": "launch",
+            "mainClass": "chapter3.ArrayLesson",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListLesson",
+            "request": "launch",
+            "mainClass": "chapter3.ArrayListLesson",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "DatesAndTimeLesson",
+            "request": "launch",
+            "mainClass": "chapter3.DatesAndTimeLesson",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "StringLesson",
+            "request": "launch",
+            "mainClass": "chapter3.StringLesson",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "AccessModifier",
+            "request": "launch",
+            "mainClass": "chapter4.AccessModifier",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "ApiLesson",
+            "request": "launch",
+            "mainClass": "chapter4.ApiLesson",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "ClassZ",
+            "request": "launch",
+            "mainClass": "chapter4.ClassZ",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "ConstructorLesson",
+            "request": "launch",
+            "mainClass": "chapter4.ConstructorLesson",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "EncapsulationLesson",
+            "request": "launch",
+            "mainClass": "chapter4.EncapsulationLesson",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "Glider2",
+            "request": "launch",
+            "mainClass": "chapter4.Glider2",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "InitializationOrderSimple",
+            "request": "launch",
+            "mainClass": "chapter4.InitializationOrderSimple",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "LambdaLesson",
+            "request": "launch",
+            "mainClass": "chapter4.LambdaLesson",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "OverLoadingLesson",
+            "request": "launch",
+            "mainClass": "chapter4.OverLoadingLesson",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "ReturnType",
+            "request": "launch",
+            "mainClass": "chapter4.ReturnType",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "VarArgsLesson",
+            "request": "launch",
+            "mainClass": "chapter4.VarArgsLesson",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "InheritanceLesson",
+            "request": "launch",
+            "mainClass": "chapter5.InheritanceLesson",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "MountainLion",
+            "request": "launch",
+            "mainClass": "chapter5.MountainLion",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "PolymorphismLesson",
+            "request": "launch",
+            "mainClass": "chapter5.PolymorphismLesson",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "Wolf",
+            "request": "launch",
+            "mainClass": "chapter5.Wolf",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "ExceptionsLesson",
+            "request": "launch",
+            "mainClass": "chapter6.ExceptionsLesson",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "MoonFlower",
+            "request": "launch",
+            "mainClass": "otherFolder.MoonFlower",
+            "projectName": "ciiccb122026_bc3be6a4"
+        },
+        {
+            "type": "java",
+            "name": "SunFlower",
+            "request": "launch",
+            "mainClass": "otherFolder.SunFlower",
+            "projectName": "ciiccb122026_bc3be6a4"
+        }
+    ]
+}
